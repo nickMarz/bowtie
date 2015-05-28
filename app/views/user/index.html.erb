@@ -1,0 +1,10 @@
+<h1>User#index</h1>
+<p>Find me in app/views/user/index.html.erb</p>
+
+<%= headshot_default_config(Rails.application.config.session_options[:key], headshot_capture_path) %>
+
+<%= headshot_camera %>
+
+<br/><br/>
+
+<%= headshot_snap_button('Shoot') %>
