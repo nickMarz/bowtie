@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get 'user/index'
+  get 'user/index' 
+  # This is where the camera is located at the moment
 
   post "headshot/capture" => 'headshot#capture', :as => :headshot_capture
   devise_for :users

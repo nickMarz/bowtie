@@ -25,6 +25,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'headshot' # gem to take and save user photo's
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+gem 'materialize-sass'
 gem 'devise'
 # Use Unicorn as the app server
 # gem 'unicorn'
